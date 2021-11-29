@@ -17,7 +17,7 @@ $ docker-compose --env-file .local.env build
 ```
 ### Ejecutar contenedores
 ```
-$ docker-compose --env-file .local up -d
+$ docker-compose --env-file .local.env up -d
 ```
 **Url Backend:** http://localhost:7000
 
